@@ -11,7 +11,10 @@ tag_title_prefix:   "Posts tagged #"
 tag_title_suffix:   ""
 
 # Do not copy these file to the output directory
-exclude:            [ .gitignore, .gitmodules, CNAME, README.md, fractal/FractalExplorer/ ]
+exclude:            [ .gitignore, CNAME, README.md,
+                      fractal/FractalExplorer/,
+                      fractal/node_modules/,
+                      typings/ ]
 
 # Setup
 title:               Nathan Bellowe
